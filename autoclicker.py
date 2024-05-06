@@ -13,6 +13,7 @@ def clicker():
         if clicking:
             mouse.click(Button.left, 1)
             time.sleep(0.001) 
+            print("yo re clicking")
 
 def toggle_event(key):
     if key == TOOGLE_KEY:
